@@ -94,7 +94,7 @@ plt.suptitle('Confusion Matrices', fontsize=14, fontweight='bold')
 plt.tight_layout()
 plt.savefig('images/confusion_matrix.png', dpi=120, bbox_inches='tight')
 plt.show()
-print('✅ Saved: images/confusion_matrix.png')
+print(' Saved: images/confusion_matrix.png')
 
 # ── 4. ROC curves ─────────────────────────────────────────────────────────────
 plt.figure(figsize=(9, 7))
@@ -127,7 +127,7 @@ plt.title('Top 25 Feature Importances — RandomForestClassifier')
 plt.tight_layout()
 plt.savefig('images/feature_importance_randomforest.png', dpi=120, bbox_inches='tight')
 plt.show()
-print('✅ Saved: images/feature_importance_randomforest.png')
+print(' Saved: images/feature_importance_randomforest.png')
 
 # ── 6. Feature importance — XGBoost ──────────────────────────────────────────
 top_idx = np.argsort(best_xgb.feature_importances_)[::-1][:25]
@@ -140,7 +140,7 @@ plt.title('Top 25 Feature Importances — XGBoost')
 plt.tight_layout()
 plt.savefig('images/feature_importance_xgboost.png', dpi=120, bbox_inches='tight')
 plt.show()
-print('✅ Saved: images/feature_importance_xgboost.png')
+print('Saved: images/feature_importance_xgboost.png')
 
 # ── 7. Real vs Fake distribution ──────────────────────────────────────────────
 import pandas as pd
@@ -160,6 +160,6 @@ for bar in ax.patches:
 plt.tight_layout()
 plt.savefig('images/real_vs_fake_distribution.png', dpi=120, bbox_inches='tight')
 plt.show()
-print('✅ Saved: images/real_vs_fake_distribution.png')
+print('Saved: images/real_vs_fake_distribution.png')
 
-print('\n✅ All evaluation complete — images saved to images/')
+print('\n All evaluation complete — images saved to images/')
