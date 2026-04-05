@@ -294,8 +294,8 @@ The app takes job posting details as input and predicts whether it is **Real or 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Real-Fake-Job-Prediction.git
-cd Real-Fake-Job-Prediction
+git clone https://github.com/Bhuban-bhatta/Real-Fake-Job-Detection
+cd Real-Fake-Job-Detection
 
 # Install dependencies
 pip install -r requirements.txt
@@ -365,6 +365,13 @@ jupyter notebook notebook/fake_job_detection.ipynb
 
 ---
 
+
+## 🌐 Live Demo
+👉 [Click here to try the app](https://real-fake-job-detection-dfxiotsorws38hxdpd3nms.streamlit.app/)
+
+
 ## 👤 Author
 
+**Bhuban Bhatta**
+- GitHub: [@Bhuban-bhatta](https://github.com/Bhuban-bhatta)
 Made with ❤️ for fake job detection research.
