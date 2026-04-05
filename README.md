@@ -94,8 +94,6 @@ Real-Fake-Job-Prediction/
 ├── model.pkl                             # Saved XGBoost model
 ├── vectorizer.pkl                        # Saved TF-IDF vectorizer
 ├── numeric_cols.pkl                      # Saved numeric feature names
-├── threshold.pkl                         # Saved decision threshold
-├── requirements.txt                      # Python dependencies
 ├── .gitignore
 └── README.md
 ```
@@ -367,7 +365,9 @@ jupyter notebook notebook/fake_job_detection.ipynb
 
 
 ## 🌐 Live Demo
-👉 [Click here to try the app](https://real-fake-job-detection-dfxiotsorws38hxdpd3nms.streamlit.app/)
+👉 [Click here to try the app]
+(https://real-fake-job-detection-dfxiotsorws38hxdpd3nms.streamlit.app/)
+
 
 
 ## 👤 Author
