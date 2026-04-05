@@ -18,14 +18,13 @@ ENV/
 *.ipynb_checkpoints
 
 # ── Data Files ────────────────────────────────────────────────────────────────
-# Keep raw and clean CSVs tracked — comment below if you want to ignore them
 Data/raw/*.csv
 # data/clean/*.csv
 
-# ── Model Files (optional — uncomment if too large for GitHub) ────────────────
-model.pkl
-vectorizer.pkl
-numeric_cols.pkl
+# ── Model Files────────────────
+#model.pkl
+#vectorizer.pkl
+#numeric_cols.pkl
 
 # ── OS Files ──────────────────────────────────────────────────────────────────
 .DS_Store
